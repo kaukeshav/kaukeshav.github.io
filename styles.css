@@ -1,64 +1,85 @@
 body {
   font-family: sans-serif;
+  background-color: #fff;
+  color: #000;
 }
 
 header {
   text-align: center;
+  background-color: #f1f1f1;
 }
 
-main {
-  padding: 20px;
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #444;
+}
+
+p {
+  font-size: 16px;
+  color: #666;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+li {
+  font-size: 16px;
+  color: #666;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #444;
 }
 
 .skills-list {
-  list-style-type: none;
-}
-
-.skills-list li {
-  font-size: 16px;
-  margin-bottom: 10px;
-}
-
-.experience-list {
-  list-style-type: none;
-}
-
-.experience-list li {
-  font-size: 16px;
-  margin-bottom: 10px;
-}
-
-.projects-list {
-  list-style-type: none;
-}
-
-.projects-list li {
-  font-size: 16px;
-  margin-bottom: 10px;
-}
-
-footer {
-  text-align: center;
-  padding: 20px;
-}
-#contact {
   background-color: #f1f1f1;
   padding: 20px;
 }
 
-#contact h2 {
-  color: #333;
-  font-size: 24px;
+.skills-list li {
+  border-bottom: 1px solid #ccc;
 }
 
-#contact form {
+.experience-list {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.experience-list li {
+  border-bottom: 1px solid #ccc;
+}
+
+.projects-list {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.projects-list li {
+  border-bottom: 1px solid #ccc;
+}
+
+.contact-form {
   width: 100%;
   max-width: 500px;
   margin: 0 auto;
 }
 
-#contact input,
-#contact textarea {
+.contact-form input,
+.contact-form textarea {
   width: 100%;
   padding: 10px;
   font-size: 16px;
@@ -66,7 +87,7 @@ footer {
   margin-bottom: 10px;
 }
 
-#contact button {
+.contact-form button {
   background-color: #333;
   color: #fff;
   padding: 10px 20px;
@@ -75,6 +96,12 @@ footer {
   cursor: pointer;
 }
 
-#contact button:hover {
+.contact-form button:hover {
   background-color: #444;
+}
+
+footer {
+  text-align: center;
+  background-color: #f1f1f1;
+  padding: 20px;
 }
