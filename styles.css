@@ -1,29 +1,63 @@
 body {
   font-family: sans-serif;
-  background-color: #fff;
-  color: #000;
+  background-image: linear-gradient(
+    130deg,
+    hsl(240deg 100% 1%) 1%,
+    hsl(55deg 58% 22%) 31%,
+    hsl(55deg 58% 31%) 40%,
+    hsl(55deg 58% 38%) 45%,
+    hsl(55deg 58% 43%) 48%,
+    hsl(55deg 58% 49%) 50%,
+    hsl(55deg 66% 53%) 51%,
+    hsl(55deg 61% 61%) 52%,
+    hsl(55deg 56% 66%) 52%,
+    hsl(55deg 51% 71%) 53%,
+    hsl(56deg 46% 75%) 52%,
+    hsl(57deg 40% 78%) 52%,
+    hsl(60deg 32% 82%) 52%,
+    hsl(60deg 22% 76%) 52%,
+    hsl(60deg 15% 71%) 51%,
+    hsl(60deg 11% 65%) 51%,
+    hsl(60deg 7% 58%) 51%,
+    hsl(60deg 3% 51%) 51%,
+    hsl(0deg 0% 42%) 52%,
+    hsl(0deg 0% 38%) 53%,
+    hsl(0deg 0% 34%) 55%,
+    hsl(0deg 0% 29%) 58%,
+    hsl(0deg 0% 24%) 62%,
+    hsl(0deg 0% 17%) 70%,
+    hsl(0deg 0% 0%) 98%
+  );
+  margin: 0;
 }
+
+section {
+  height: 100vh;
+  overflow-y: auto;
+  transition: scroll 0.5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10%;
+}
+
 
 header {
   text-align: center;
-  background-color: #f1f1f1;
 }
 
 h1 {
   font-size: 36px;
   font-weight: bold;
-  color: #333;
 }
 
 h2 {
   font-size: 24px;
   font-weight: bold;
-  color: #444;
 }
 
 p {
   font-size: 16px;
-  color: #666;
 }
 
 ul {
@@ -33,43 +67,34 @@ ul {
 
 li {
   font-size: 16px;
-  color: #666;
 }
 
 a {
-  color: #333;
   text-decoration: none;
 }
 
 a:hover {
-  color: #444;
 }
 
 .skills-list {
-  background-color: #f1f1f1;
   padding: 20px;
 }
 
 .skills-list li {
-  border-bottom: 1px solid #ccc;
 }
 
 .experience-list {
-  background-color: #f1f1f1;
   padding: 20px;
 }
 
 .experience-list li {
-  border-bottom: 1px solid #ccc;
 }
 
 .projects-list {
-  background-color: #f1f1f1;
   padding: 20px;
 }
 
 .projects-list li {
-  border-bottom: 1px solid #ccc;
 }
 
 .contact-form {
@@ -83,25 +108,19 @@ a:hover {
   width: 100%;
   padding: 10px;
   font-size: 16px;
-  border: 1px solid #ccc;
   margin-bottom: 10px;
 }
 
 .contact-form button {
-  background-color: #333;
-  color: #fff;
   padding: 10px 20px;
   font-size: 16px;
-  border: 1px solid #333;
   cursor: pointer;
 }
 
 .contact-form button:hover {
-  background-color: #444;
 }
 
 footer {
   text-align: center;
-  background-color: #f1f1f1;
   padding: 20px;
 }
